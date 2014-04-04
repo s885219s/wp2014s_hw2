@@ -1,0 +1,157 @@
+@import url(http://cs.nccu.edu.tw/~jonesyu/960gs/code/css/reset.css);
+@import url(http://cs.nccu.edu.tw/~jonesyu/960gs/code/css/960.css);
+@import url(http://cs.nccu.edu.tw/~jonesyu/960gs/code/css/text.css);
+@import url(http://fonts.googleapis.com/css?family=Oswald);
+a{
+  text-decoration:none;
+}
+body{
+  background:url(未命名-1.jpg);
+  background-position: center center;
+  //background-repeat: repeat-y;
+  width:960px;
+  //background-attachment: fixed;
+}
+header{
+  padding-top:38px;
+  background:url(nav.png);
+  background-repeat: no-repeat;
+  padding-bottom:2em;
+}
+.about h2{
+  margin-top:2em;
+  padding:5px 0px;
+  background:url(nav2.png);
+  background-repeat: no-repeat;
+  font-size: 30px;
+  font-family: "微軟正黑體";
+  padding-left:50px;
+}
+.education h2{
+  margin-top:2em;
+  padding:5px 0px;
+  background:url(nav3.png);
+  background-repeat: no-repeat;
+  font-size: 30px;
+  font-family: "微軟正黑體";
+  padding-left:50px;
+}
+.skill h2{
+  margin-top:2em;
+  padding:5px 0px;
+  background:url(nav4.png);
+  background-repeat: no-repeat;
+  font-size: 30px;
+  font-family: "微軟正黑體";
+  padding-left:50px;
+}
+.else h2{
+  margin-top:2em;
+  padding:5px 0px;
+  background:url(nav5.png);
+  background-repeat: no-repeat;
+  font-size: 30px;
+  font-family: "微軟正黑體";
+  padding-left:50px;
+}
+header p{
+  float:left;
+  list-style-type:none;
+  padding:10px 0px;
+  display:inline block;
+}
+
+//nav{
+  float:right;
+  display:inline-block;
+  height: 50px;
+  
+}
+nav li{
+  //width:120px;
+  float:left;
+  list-style:none;
+  list-style-type:none;
+  padding:10px 0px;
+  text-align:center;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: 微軟正黑體;
+  border-left:1px solid;
+  border-left-color:brown;
+}
+#logo span{
+  list-style-type:none;
+  padding-bottom:1em;
+  padding-left:20px;
+  font-size: 36px;
+  font-weight:bold;
+  font-family: "Times New Roman";
+}
+img.main-pic{
+  width:90%;
+  margin-left: 50px;
+  padding:10px;
+  background-color: rgb(254, 254, 254); 
+}
+div.about,
+div.education,
+div.skill,
+div.else{
+  height:800px; 
+}
+li{
+  margin-bottom:20px;
+  list-style-type:none;
+}
+img.aboutphoto,
+img.eduphoto,
+img.skillphoto,
+img.elsephoto{
+  margin-top:100px;
+  margin-left:20px;
+  padding:5px; 
+  background-color: rgb(254, 254, 254); 
+}
+.education #content{
+  background: url(post2.png);
+  padding-top:300px;
+  padding-bottom:100px; 
+  text-align:center;
+  font-size: 16px;
+  font-family: 微軟正黑體;
+}
+.about #content{
+  background: url(post.png);
+  padding-top:150px;
+  padding-bottom:150px; 
+  text-align:center;
+  font-size: 16px;
+  font-family: 微軟正黑體;
+}
+.skill #content{
+  background: url(post3.png);
+  padding-top:50px;
+  text-align:center;
+  font-size: 16px;
+  font-family: 微軟正黑體;
+}
+.else #content{
+  background: url(post4.png);
+  padding-top:100px;
+  text-align: center;
+  font-size: 16px;
+  font-family: 微軟正黑體;
+}
+.else p{
+  padding-left: 30px;
+  text-align: center;
+  color:rgb(235,50,50);
+}
+footer{
+  padding-bottom: 1em;
+  text-align:center;
+  font-size:16px;
+  font-family: 微軟正黑體;
+}
+
