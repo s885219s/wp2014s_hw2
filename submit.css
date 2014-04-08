@@ -20,7 +20,11 @@ input{
 	font-family: 'Roboto', sans-serif;
 }
 .email{
+<<<<<<< HEAD
 	margin-left: -90px;
+=======
+	margin-left: -94px;
+>>>>>>> bbb04f09d7a5d17914d5c65062b1ad63be3f454b
 }
 .submit{
     margin-left:15px; 
@@ -29,7 +33,10 @@ input{
 	text-align:center; 
 }
 .comments{
+<<<<<<< HEAD
 	padding-left:340px; 
+=======
+>>>>>>> bbb04f09d7a5d17914d5c65062b1ad63be3f454b
 	 resize: vertical; 
 }
 form{
