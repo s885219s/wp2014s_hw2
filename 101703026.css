@@ -6,7 +6,7 @@ a{
   text-decoration:none;
 }
 body{
-  background:url(未命名-1.jpg);
+  background:url(background.jpg);
   background-position: center center;
   //background-repeat: repeat-y;
   width:960px;
@@ -80,14 +80,20 @@ nav li{
   border-left:1px solid;
   border-left-color:brown;
 }
-#logo span{
+#logo{
+  float:left;
+  list-style:none;
   list-style-type:none;
-  padding-bottom:1em;
-  padding-left:20px;
-  font-size: 36px;
-  font-weight:bold;
-  font-family: "Times New Roman";
+  padding-top:0px;
+  margin-top:0px;
+  margin-left: 10px;
+  margin-right:0px;  
+  text-align:center;
+  font-weight: bold;
+  font-size: 32px;
+  font-family: 微軟正黑體;
 }
+
 img.main-pic{
   width:90%;
   margin-left: 50px;
